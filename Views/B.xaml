@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             Title="Map" 
+             x:Class="PTSSRU.Views.B">
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <maps:Map IsShowingUser="true"
+                      MapType="Street" 
+                      MoveToLastRegionOnLayoutChange="False">
+                
+                <x:Arguments>
+                    <maps:MapSpan>
+                        <x:Arguments>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.776090300222677</x:Double>
+                                    <x:Double>100.50843532280994</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                            <x:Double>0.004</x:Double>
+                            <x:Double>0.004</x:Double>
+                        </x:Arguments>
+                    </maps:MapSpan>
+                </x:Arguments>
+                <maps:Map.MapElements>
+                    <maps:Polygon StrokeColor="#b78770"
+                            StrokeWidth="8"
+                            FillColor="#26b78770">
+                        <maps:Polygon.Geopath>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.778244705964134</x:Double>
+                                    <x:Double>100.50866767082945</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.77818864026504</x:Double>
+                                    <x:Double>100.50837871755702</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.773554339733026</x:Double>
+                                    <x:Double>100.50619822169693</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.772887067260449</x:Double>
+                                    <x:Double>100.50758861897901</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.777429490309418</x:Double>
+                                    <x:Double>100.5104243071342</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.778244705964134</x:Double>
+                                    <x:Double>100.50866767082945</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Polygon.Geopath>
+                    </maps:Polygon>
+                </maps:Map.MapElements>
+
+                <maps:Map.Pins>
+                    <maps:Pin Label="อาคารจุฑารัตนาภรณ์"
+                       Address=""
+                       Type="Place"                              
+                       Clicked="Pin_Clicked_1">
+                        <maps:Pin.Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.777536910473303</x:Double>
+                                    <x:Double>100.5087328327804</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Pin.Position>
+                    </maps:Pin>
+                                      
+                    <maps:Pin Label="ศาลปราสาทสมเด็จพระนางเจ้าสวนสุนันทากุมารีรัตน์"
+                       Address=""
+                       Type="Place"
+                       Clicked="Pin_Clicked"         >
+                        <maps:Pin.Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.776692280120338</x:Double>
+                                    <x:Double>100.50902230906989</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Pin.Position>
+                    </maps:Pin>
+                                       
+                    <maps:Pin Label="อาคารสายสุรธานภดล"
+                       Address=""
+                       Type="Place">
+                        <maps:Pin.Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.774987432437294</x:Double>
+                                    <x:Double>100.5080179138143</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Pin.Position>
+                    </maps:Pin>
+
+
+                    <maps:Pin Label="โบราณสถาน หลุมหลบภัย เนินพระนาง"
+                       Address=""
+                       Type="Place">
+                        <maps:Pin.Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.774209859922788</x:Double>
+                                    <x:Double>100.50765284450418</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Pin.Position>
+                    </maps:Pin>
+
+                    <maps:Pin Label="อนุสาวรีย์ พระองค์เจ้าสุนันทากุมารีรัตน์"
+                       Address=""
+                       Type="Place">
+                        <maps:Pin.Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.774063745999015</x:Double>
+                                    <x:Double>100.50785552394655</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Pin.Position>
+                    </maps:Pin>
+
+                    <maps:Pin Label="อาทรทิพยนิวาสน์"
+                       Address=""
+                       Type="Place">
+                        <maps:Pin.Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.777638828032812</x:Double>
+                                    <x:Double>100.50900117503608</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Pin.Position>
+                    </maps:Pin>
+
+                    <maps:Pin Label="อาทรทิพยนิวาสน์2"
+                       Address=""
+                       Type="Place">
+                        <maps:Pin.Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.777454521762316</x:Double>
+                                    <x:Double>100.50936327325287</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Pin.Position>
+                    </maps:Pin>
+
+                    <maps:Pin Label="กำลังซ่อม"
+                       Address=""
+                       Type="Place">
+                        <maps:Pin.Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.777188708843832</x:Double>
+                                    <x:Double>100.50870955657379</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Pin.Position>
+                    </maps:Pin>
+
+                    <maps:Pin Label="อาคารศศิพงษ์ประไพ"
+                       Address=""
+                       Type="Place">
+                        <maps:Pin.Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>13.77688664894465</x:Double>
+                                    <x:Double>100.50833784595605</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Pin.Position>
+                    </maps:Pin>
+                </maps:Map.Pins>
+            </maps:Map>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="History"
+             x:Class="PTSSRU.Views.C">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Intent="Form">
+                <TableRoot>
+                    <TableSection Title="ข้อมูล">
+                        <ImageCell 
+                        Tapped="ImageCell_PalaceOne"
+                        ImageSource="https://sv1.picz.in.th/images/2021/01/11/lKpjqk.jpg" Text="อาทรทิพยนิวาสน์"  Detail="">
+                        </ImageCell>
+
+                        <ImageCell 
+                        Tapped="ImageCell_PalaceTwo"
+                        ImageSource="https://sv1.picz.in.th/images/2021/01/11/lKpl8v.jpg" Text="อาทรทิพยนิวาสน์2" Detail="">
+                        </ImageCell>
+
+                        <ImageCell 
+                        Tapped="ImageCell_PalaceThree"
+                        ImageSource="https://sv1.picz.in.th/images/2021/01/11/lKpD7E.jpg" Text="อาคารจุฑารัตนาภรณ์" Detail="">
+                        </ImageCell>
+
+                        <ImageCell 
+                        Tapped="ImageCell_PalaceEigth"
+                        ImageSource="https://sv1.picz.in.th/images/2021/01/11/lKpuln.jpg" Text="กำลังซ่อม" Detail="">
+                        </ImageCell>
+
+                        <ImageCell 
+                        Tapped="ImageCell_PalaceNine"
+                        ImageSource="https://sv1.picz.in.th/images/2021/01/11/lKpCtS.jpg" Text="อาคารศศิพงษ์ประไพ" Detail="">
+                        </ImageCell>
+
+                        <ImageCell 
+                        Tapped="ImageCell_PalaceFour"
+                        ImageSource="https://sv1.picz.in.th/images/2021/01/11/lKp6Gg.jpg" Text="ศาลปราสาทสมเด็จพระนางเจ้าสวนสุนันทากุมารีรัตน์" Detail="">
+                        </ImageCell>
+                        
+                        <ImageCell 
+                        Tapped="ImageCell_PalaceFive"
+                        ImageSource="https://sv1.picz.in.th/images/2021/01/11/lKpP2V.jpg" Text="อาคารสายสุรธานภดล" Detail="">
+                        </ImageCell>
+                        
+                        <ImageCell 
+                        Tapped="ImageCell_PalaceSix"
+                        ImageSource="https://sv1.picz.in.th/images/2021/01/11/lKpAgN.jpg" Text="โบราณสถาน หลุมหลบภัย เนินพระนาง" Detail="">
+                        </ImageCell>
+
+                        <ImageCell 
+                        Tapped="ImageCell_PalaceSeven"
+                        ImageSource="https://sv1.picz.in.th/images/2021/01/11/lKpsFQ.jpg" Text="อนุสาวรีย์ พระองค์เจ้าสุนันทากุมารีรัตน์" Detail="">
+                        </ImageCell>
+
+                    </TableSection>
+                </TableRoot>
+
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

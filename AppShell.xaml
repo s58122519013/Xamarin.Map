@@ -1,0 +1,54 @@
+﻿<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+        xmlns:views="clr-namespace:PTSSRU.Views"   
+       Navigating="OnNavigating"
+       Navigated="OnNavigated"
+       x:Class="PTSSRU.AppShell"
+       BackgroundColor="#b78770"
+       ForegroundColor="White"
+       TitleColor="White"
+       DisabledColor="#B4FFFFFF"
+       UnselectedColor="#95FFFFFF">
+
+    <TabBar>
+        <Tab Title="Home"
+             Route="a"
+             Icon="home.png">
+            <ShellContent>
+                <views:A />
+            </ShellContent>
+        </Tab>
+        <Tab Title="Map"
+             Route="b"
+             Icon="map.png">
+            
+            <ShellContent>
+               
+                <views:B />
+            </ShellContent>
+            
+        </Tab>
+
+        <Tab Title="History"
+             Route="c"
+             Icon="history.png">
+            <ShellContent>
+                <views:C />
+            </ShellContent>
+
+        </Tab>
+        
+        <Tab Title="Setting"
+             Route="monkey"
+             Icon="palace.png">
+            <ShellContent>
+                <views:D />
+                
+            </ShellContent>
+
+        </Tab>
+    </TabBar>
+
+
+</Shell>
+    

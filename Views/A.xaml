@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PTSSRU.Views.A"
+             Title="HOME">
+    <ContentPage.Content>
+        <Grid
+        RowDefinitions = "0.5*,10*,0.5*,*,0.5*,*,0.5*,*,0.5*,*"
+        ColumnDefinitions="*,30*,30*,*"
+        >
+            <Image
+            Grid.Row="1"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Source="https://sv1.picz.in.th/images/2021/01/11/lKpF5z.jpg"
+            Aspect="Fill"
+            />
+  
+            <Label
+            Grid.Row="3"
+            Grid.Column="1"
+            Text="เดินชม 30 นาที"
+            FontSize="Medium"
+            HorizontalOptions="Center"
+            />
+            <Label
+            Grid.Row="5"
+            Grid.Column="1" 
+            Text="เดินชม 1 ชั่วโมง"
+            FontSize="Medium"
+            HorizontalOptions="Center"
+            />
+            <Label
+            Grid.Row="7"
+            Grid.Column="1"               
+            Text="เดิน ชม 2 ชั่วโมง"
+            FontSize="Medium"
+            HorizontalOptions="Center"
+            />
+            <Button x:Name="goa"
+            Grid.Row="3"
+            Grid.Column="2"
+            Text="GO"           
+            FontSize="Small"
+            HorizontalOptions="Center"
+            Clicked="goa_Clicked"        
+            BackgroundColor="#26b78770"
+            />
+            <Button x:Name="gob"
+            Grid.Row="5"
+            Grid.Column="2"
+            Text="GO"
+            FontSize="Small"
+            HorizontalOptions="Center"
+                    Clicked="gob_Clicked"
+            BackgroundColor="#26b78770"
+            />
+            <Button x:Name="goc"
+            Grid.Row="7"
+            Grid.Column="2"
+            Text="GO"
+            FontSize="Small"
+            HorizontalOptions="Center"
+            Clicked="OnButtonClicked"
+            BackgroundColor="#26b78770"
+            />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

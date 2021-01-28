@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PTSSRU.Datas.PalaceSeven">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="อนุสาวรีย์ พระองค์เจ้าสุนันทากุมารีรัตน์" 
+                   FontSize="Large"
+                   HorizontalOptions="Center" />
+
+            <Image Source="https://sv1.picz.in.th/images/2021/01/11/lKpsFQ.jpg" 
+                   HeightRequest="200" 
+                   WidthRequest="200" 
+                   HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Go"
+                    BackgroundColor="#26b78770"
+                    HorizontalOptions="Center"
+                    Clicked="Gogo"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
